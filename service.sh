@@ -1,17 +1,12 @@
-:: MENU ================================
-setlocal EnableDelayedExpansion
-title ZAPRET SERVICE MANAGER v!LOCAL_VERSION!
-:menu
+# НЕ
+# ДО
+# ДЕ
+# ЛА
+# НО
+# БЛЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
 
-cls
-
-call :ipset_switch_status
-call :game_switch_status
-call :check_updates_switch_status
-call :get_strategy_name
-
+clear
 set "menu_choice=null"
-
 echo.
 echo   ZAPRET SERVICE MANAGER v!LOCAL_VERSION!
 echo.  !CurrentStrategy!
